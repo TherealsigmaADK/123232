@@ -287,7 +287,7 @@ controller.player1.onButtonEvent(ControllerButton.A, ControllerButtonEvent.Press
     500,
     false
     )
-    sprites.destroy(mySprite7, effects.fire, 500)
+    sprites.destroy(mySprite7, effects.fire, 5000)
 })
 controller.player4.onButtonEvent(ControllerButton.Left, ControllerButtonEvent.Pressed, function () {
 	
